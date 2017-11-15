@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://dog-cat.esy.es/">
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/index.html</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/contacts.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/price_list.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/photo_dog.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/photo_cat.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+</urlset>
+

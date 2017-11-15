@@ -1,0 +1,202 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+
+&lt;urlset xmlns=&quot;http://www.google.com/&quot;&gt;
+
+    &lt;url&gt;
+
+         &lt;changefreq&gt;https://www.google.com.ua/webhp?tab=ww&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/imghp?hl=uk&amp;tab=wi&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://maps.google.com.ua/maps?hl=uk&amp;tab=wl&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.youtube.com/?gl=UA&amp;tab=w1&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://news.google.com.ua/nwshp?hl=uk&amp;tab=wn&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://mail.google.com/mail/?tab=wm&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://drive.google.com/?tab=wo&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://www.google.com/calendar?tab=wc&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://www.google.com.ua/intl/uk/options/&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://translate.google.com.ua/?hl=uk&amp;tab=wT&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.blogger.com/?tab=wj&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://photos.google.com/?tab=wq&amp;pageId=none&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://docs.google.com/document/?usp=docs_alc&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://www.google.com.ua/intl/uk/options/&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;https://accounts.google.com/ServiceLogin?hl=uk&amp;passive=true&amp;continue=http://www.google.com.ua/%3Fgfe_rd%3Dcr%26ei%3DVlOAWfvyF4667gTX3ZqABA&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/preferences?hl=uk&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;/preferences?hl=uk&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/history/optout?hl=uk&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;/advanced_search?hl=uk&amp;amp;authuser=0&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;/language_tools?hl=uk&amp;amp;authuser=0&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;/url?q=http://www.google.com.ua/setprefs%3Fsig%3D0_UeWlep7McsaAwsoh-1vsMsIMRE8%253D%26hl%3Dru%26source%3Dhomepage&amp;amp;sa=U&amp;amp;ved=0ahUKEwit34e95bXVAhWLtRQKHT0NCuQQ2ZgBCAU&amp;amp;usg=AFQjCNH9oEzv8naK4glWDhvbm3NnYup-AA&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/intl/uk/ads/&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/intl/uk/services/&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;/intl/uk/about.html&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+    &lt;url&gt;
+
+         &lt;loc&gt;http://www.google.com.ua/setprefdomain?prefdom=US&amp;amp;sig=__9EZBZ7Zq2rVrG1bw113AL31VYZA%3D&lt;/loc&gt;
+
+    &lt;/url&gt;
+
+&lt;/urlset&gt;
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://dog-cat.esy.es/">
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/index.html</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/contacts.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/price_list.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/photo_dog.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+    <url>
+
+         <loc>http://dog-cat.esy.es/views/photo_cat.php</loc>
+
+         <changefreq>always</changefreq>
+
+    </url>
+
+</urlset>
+

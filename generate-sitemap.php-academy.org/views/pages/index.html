@@ -1,0 +1,76 @@
+
+
+    <div style="margin-top: 20px;">
+
+    </div>
+
+    <form action="" method="POST">
+        <label>Силка сайта</label>
+        <input type="text" id="hrefs" name="hrefs" value="http://dog-cat.esy.es/"><br>
+        <label>changefreq</label>
+        <select name="changefreq" id="changefreq">
+            <option value="always" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="always") echo 'selected';?>> always </option>
+            <option value="hourly" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="hourly") echo 'selected';?>> hourly</option>
+            <option value="daily" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="daily") echo 'selected';?>> daily </option>
+            <option value="weekly" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="weekly") echo 'selected';?>> weekly </option>
+            <option value="monthly" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="monthly") echo 'selected';?>> monthly </option>
+            <option value="yearly" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="yearly") echo 'selected';?>> yearly </option>
+            <option value="never" <?php if(isset($_POST['changefreq'])&&$_POST['changefreq']=="never") echo 'selected';?>> never </option>
+        </select><br>
+        <input type="submit" value="Згеренерувати sitemap"  name="submit">
+    </form>
+
+
+<?php
+
+if($_POST){
+    $xml=file_get_contents('sitemap.xml');
+            $xml =  htmlspecialchars ($xml);
+            $array1 = explode('&gt;',$xml);
+            $new_str='';
+            for($i=0;$i<count($array1);$i++){
+                if(!array_key_exists($i+1,$array1)){
+                    break;
+                }
+                $array_reverse = strrev($array1[$i]);
+                if(($array_reverse[0]=="c" && $array_reverse[3]==";")||($array_reverse[0]=="q" && $array_reverse[10]==";")){
+                    $array1[$i].="&gt;";
+                }
+                else{
+
+                        $array1[$i].="&gt;<br><br>";
+
+
+}
+$new_str.=$array1[$i];
+}
+$array2= explode('&lt;',$new_str);
+$moder_str='';
+$last=false;
+for($i=0;$i<count($array2);$i++){
+if(array_key_exists($i+1,$array2)){
+$element=$array2[$i+1];
+}
+else{
+$last=true;
+}
+if(($element[0]=="u" && $element[3]=="&") || ($element[0]=="/" && $element[4]=="&" && $element[1]=="u")){
+$array2[$i].="&nbsp;&nbsp;&nbsp;&nbsp;&lt;";
+}
+elseif (($element[0]=="l" && $element[1]=="o")||($element[0]=="c" && $element[1]=="h")){
+$array2[$i].="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;";
+}
+else{
+if($last==true){}
+else {
+$array2[$i] .= "&lt;";
+}
+}
+$moder_str.=$array2[$i];
+}
+echo $moder_str;
+
+
+}
+
+?>
