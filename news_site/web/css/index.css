@@ -1,0 +1,75 @@
+.left-col{
+
+}
+
+.right-col{
+    border: 2px solid black;
+}
+
+.center-col{
+
+}
+
+.advertising-img img{
+    width: 100%;
+}
+
+.advertising-block{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #39d618;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+
+}
+
+.advertising-site{
+    overflow-x:hidden;
+}
+
+.article-photo img{
+    width: 50%;
+    height: 354px;
+
+}
+
+.article-photo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+
+    height: 383px;
+}
+
+.article-img{
+    overflow: hidden;
+    width: 100%;
+}
+
+.item{
+    text-align: center;
+
+
+}
+
+.slide{
+    height: 383px;
+    margin-bottom: 40px;
+}
+
+.center-item{
+    text-align: center;
+}
+
+div .article{
+    margin: 5px 5px ;
+    padding:  5px 5px 5px ;
+    border: 1px solid gainsboro;
+    background-color: #f8f8f8;
+}
+
+div .comment{
+    border: 1px solid #b4afff;
+    margin: 10px;
+    padding: 5px 5px 5px 5px;
+}
